@@ -1,3 +1,4 @@
+
 <header id="header">
   <div id="banner"></div>
   <div id="header-outer" class="outer">
@@ -14,9 +15,9 @@
     <div id="header-inner" class="inner">
       <nav id="main-nav">
         <a id="main-nav-toggle" class="nav-icon"></a>
-        <% for (var i in theme.menu){ %>
-          <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-        <% } %>
+          <% for (var link in site.data.menu) { %>
+            <a class="main-nav-link" href="<%= site.data.menu[link] %>"> <%= link %> </a>
+          <% } %>
       </nav>
       <nav id="sub-nav">
         <% if (theme.rss){ %>

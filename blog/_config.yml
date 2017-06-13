@@ -8,6 +8,9 @@ subtitle: 杨昕的博客
 description: 杨昕的博客
 author: yx
 language:
+- zh-Hans
+- zh-hk
+- zh-tw
 timezone:
 
 # URL
@@ -34,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -63,7 +66,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: my_style
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,5 +74,5 @@ deploy:
   type: git
   repo: https://github.com/yangxin9527/yangxin9527.github.io.git
   branch: master
-  message: new
+  message: ne
 

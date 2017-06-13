@@ -1,8 +1,10 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
-rss: /atom.xml
+  Gallery: /gallery/
+  Archives: /archives/
+  AboutMe: /aboutme/
+  rss: /atom.xml
 
 # Content
 excerpt_link: Read More
