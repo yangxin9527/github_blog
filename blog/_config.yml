@@ -4,8 +4,8 @@
 
 # Site
 title: 个人博客
-subtitle: 杨昕的博客
-description: 杨昕的博客
+subtitle: yangx的博客
+description: yangx的博客
 author: yx
 language:
 - zh-Hans
@@ -60,7 +60,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 2
+per_page: 5
 pagination_dir: page
 
 # Extensions
@@ -74,5 +74,4 @@ deploy:
   type: git
   repo: https://github.com/yangxin9527/yangxin9527.github.io.git
   branch: master
-  message: ne
-
+  message:
